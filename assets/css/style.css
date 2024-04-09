@@ -1839,3 +1839,17 @@ section {
 .hidden {
   display: none;
 }
+
+.card-know-more {
+  background: #ffffff;
+  border: 0;
+  padding: 8px 90px;
+  border: 3px solid #106eea;
+  color: #106eea;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+a {
+  text-decoration: none !important;
+}
