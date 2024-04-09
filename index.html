@@ -78,9 +78,7 @@
   </section><!-- End Hero -->
 
   <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about section-bg">
+    <section id="about" class="about section-bg d-none d-md-block">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -92,18 +90,83 @@
 
         <div class="row">
           <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+            <img src="assets/img/aboutus.JPG" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up"
             data-aos-delay="100">
             <h3>AKASHAR FAMILY HEALTH CARE</h3>
-            <p class="mb-0">
+            <p class="mb-1">
               E Biotorium, established as proprietary concern and now converted to E Biotorium Network Private Limited
               (a company incorporated on 23rd December, 2021 under companies Act 2013) is into the business of
               Bio-Magnetic products competing with the world class noninvasive, alternative health therapies since last
               16+ years.
             </p>
             <ul>
+              <li class="mb-3">
+                <i class="bx bx-store-alt"></i>
+                <div>
+                  <p>The company adopted in 2020, Network model of distributing its multiple Bio-Magnetic products and
+                    in a very short span became one of the leading direct selling company at National level. The secret
+                    of the success and exponential growth of the company lies in the excellence of the high value health
+                    products made available at affordable price and liberal compensation plan of the company that
+                    rewards in a multiple ways the Direct Sellers in proportion to their performance. This speaks high
+                    of the long vision of the founders, dynamism of the management and sustain ability of the systems.
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <ul id="moreContent" class="hidden">
+              <li class="mt-1 mb-2">
+                <i class="bx bx-images"></i>
+                <div>
+                  <p>E Biotorium is constantly expanding its product range to introduce innovative Bio-Magnetic products
+                    which are manufactured at GMP certified state of the art manufacturing facilities. E Biotorium is an
+                    ISO 14001-2015 certified direct selling company and believes in providing world-class services to
+                    all its customers. With over 5000+ product pickup and Distribution centers pan India, E Biotorium is
+                    building a wide network of distributors to reach every corner of the country.</p>
+                </div>
+              </li>
+              <p>
+                Founder of the company Mr. Sagar Joshi and the company E Biotorium are awarded and recognized by
+                multiple
+                organizations, agencies and Institutions in the country for the innovation as well as contribution to
+                the
+                good of humanity. E Biotorium is the only company awarded and recognized specially by MSME & Ayush
+                Ministry (Govt. of India).
+              </p>
+            </ul>
+            <div class="readmore">
+              <button type="button" onclick="toggleReadMore()">Know more</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section id="about" class="about section-bg d-block d-md-none">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <h3>Find Out More <span>About Us</span></h3>
+          <p>(Revolutionary Alternative Healing with the power of nature & science)
+            A natural way of living life...</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+            <img src="assets/img/aboutus.JPG" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up"
+            data-aos-delay="100">
+            <h3>AKASHAR FAMILY HEALTH CARE</h3>
+            <p class="mb-1">
+              E Biotorium, established as proprietary concern and now converted to E Biotorium Network Private Limited
+              (a company incorporated on 23rd December, 2021 under companies Act 2013) is into the business of
+              Bio-Magnetic products competing with the world class noninvasive, alternative health therapies since last
+              16+ years.
+            </p>
+            <ul id="moreContent2" class="hidden">
               <li class="mb-3">
                 <i class="bx bx-store-alt"></i>
                 <div>
@@ -126,19 +189,23 @@
                     building a wide network of distributors to reach every corner of the country.</p>
                 </div>
               </li>
+              <p>
+                Founder of the company Mr. Sagar Joshi and the company E Biotorium are awarded and recognized by
+                multiple
+                organizations, agencies and Institutions in the country for the innovation as well as contribution to
+                the
+                good of humanity. E Biotorium is the only company awarded and recognized specially by MSME & Ayush
+                Ministry (Govt. of India).
+              </p>
             </ul>
-            <p>
-              Founder of the company Mr. Sagar Joshi and the company E Biotorium are awarded and recognized by multiple
-              organizations, agencies and Institutions in the country for the innovation as well as contribution to the
-              good of humanity. E Biotorium is the only company awarded and recognized specially by MSME & Ayush
-              Ministry (Govt. of India).
-            </p>
+            <div class="readmore">
+              <button type="button" onclick="toggleReadMore2()">Read More</button>
+            </div>
           </div>
         </div>
 
       </div>
-    </section><!-- End About Section -->
-
+    </section>
 
     <!-- ======= Counts Section ======= -->
     <section id="counts" class="counts">
@@ -772,6 +839,18 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    function toggleReadMore() {
+      var moreContent = document.getElementById("moreContent");
+      moreContent.classList.toggle("hidden");
+    }
+
+    function toggleReadMore2() {
+      var moreContent = document.getElementById("moreContent2");
+      moreContent.classList.toggle("hidden");
+    }
+  </script>
 
   <script>
     emailjs.init("8XpSFAuLYkcnfkp-X");
