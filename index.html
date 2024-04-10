@@ -10,7 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/favicon.png" rel="apple-touch-icon">
+  <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
 
   <!-- Google Fonts -->
   <link
@@ -42,12 +43,12 @@
     </span></span></a>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="d-flex align-items-center">
+  <!-- <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo d-none d-md-block"><a href="index.html">AKASHAR HEALTH CARE</a></h1>
-      <h2 class="logo d-md-none d-block" style="font-size: 23px;"><a href="index.html">AKASHAR HEALTH CARE</a></h2>
-
+      <h1 class="logo">
+        <a href="index.html"><img src="./assets/img/favicon.png" width="80px" alt="logo"></a>
+      </h1>
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
@@ -56,16 +57,34 @@
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+      </nav>
 
     </div>
-  </header><!-- End Header -->
+  </header> -->
+
+  <header class="header">
+    <nav>
+      <div class="container d-flex align-items-center justify-content-between">
+        <h1 class="logo">
+          <a href="index.html"><img src="./assets/img/favicon.png" width="80px" alt="logo"></a>
+        </h1>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <ul id="navbar" class="navbar menu mt-2">
+          <li><a class="nav-link  active" href="#hero">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#services">Services</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container" data-aos="zoom-out" data-aos-delay="100">
       <div class="text-center">
-        <h1>Welcome to <span>Akshar Family Health Care</span></h1>
+        <h1>Welcome to <span>Akshar Health Care</span></h1>
         <h2 class="mt-3">Biomagnetism has the potential to advance the health industry throughout <br> the world.</h2>
         <div class="d-flex justify-content-center">
           <a href="https://api.whatsapp.com/send?phone=+919898588820&amp;text=Hello I want to know more about Akshar Family Health Care"
@@ -92,14 +111,14 @@
           <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up"
             data-aos-delay="100">
             <h3>AKASHAR FAMILY HEALTH CARE</h3>
-            <p class="mb-1">
+            <p>
               E Biotorium, established as proprietary concern and now converted to E Biotorium Network Private Limited
               (a company incorporated on 23rd December, 2021 under companies Act 2013) is into the business of
               Bio-Magnetic products competing with the world class noninvasive, alternative health therapies since last
               16+ years.
             </p>
             <ul>
-              <li class="mb-3">
+              <li class="mb-2">
                 <i class="bx bx-store-alt"></i>
                 <div>
                   <p>The company adopted in 2020, Network model of distributing its multiple Bio-Magnetic products and
@@ -155,14 +174,16 @@
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up"
             data-aos-delay="100">
-            <h3>AKASHAR FAMILY HEALTH CARE</h3>
+            <h3>AKASHAR HEALTH CARE</h3>
             <p class="mb-1">
               E Biotorium, established as proprietary concern and now converted to E Biotorium Network Private Limited
-              (a company incorporated on 23rd December, 2021 under companies Act 2013) is into the business of
-              Bio-Magnetic products competing with the world class noninvasive, alternative health therapies since last
-              16+ years.
+              (a company incorporated on 23rd December, 2021 under companies Act 2013) is into...
             </p>
             <ul id="moreContent2" class="hidden">
+              <p>the business of
+                Bio-Magnetic products competing with the world class noninvasive, alternative health therapies since
+                last
+                16+ years.</p>
               <li class="mb-3">
                 <i class="bx bx-store-alt"></i>
                 <div>
@@ -194,7 +215,7 @@
                 Ministry (Govt. of India).
               </p>
             </ul>
-            <div class="readmore">
+            <div class="readmore mt-2">
               <button type="button" onclick="toggleReadMore2()">Read More</button>
             </div>
           </div>
@@ -295,7 +316,7 @@
               <div class="member-info text-center mb-3 text-center">
                 <h4>Bio-Magnetic Mattress Pad</h4>
                 <span>⭐⭐⭐⭐(4.5)</span>
-                <div class="mt-4">
+                <div class="mt-5">
                   <a class="card-know-more" target="_blank"
                     href="https://api.whatsapp.com/send?phone=+919898588820&amp;text=Hello I want to know more about Bio-Magnetic Mattress Pad">Know
                     more</a>
@@ -394,10 +415,10 @@
 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
             <div class="member">
-              <div class="member-img">
+              <div class="member-img text-center">
                 <img
-                  src="https://www.jiomart.com/images/product/original/rvh6n8ccq5/lmz-bio-magnetic-foot-pain-relaxing-pad_001-product-images-orvh6n8ccq5-p604714586-0-202309211655.jpg?im=Resize=(1000,1000)"
-                  class="img-fluid" alt="">
+                  src="https://5.imimg.com/data5/SELLER/Default/2023/9/340581538/TS/LY/KL/2523832/bio-magnetic-foot-pad-leg-pad-1000x1000.jpeg"
+                  width="75%" class="img-fluid" alt="">
               </div>
               <div class="member-info text-center  mb-3">
                 <h4>Bio-Magnetic Foot Pain Relax Pad</h4>
@@ -419,7 +440,7 @@
               <div class="member-info text-center  mb-3">
                 <h4>Bio-Magnetic Seat Pad</h4>
                 <span>⭐⭐⭐⭐(4.5)</span>
-                <div class="mt-4">
+                <div class="mt-5">
                   <a class="card-know-more" target="_blank"
                     href="https://api.whatsapp.com/send?phone=+919898588820&amp;text=Hello I want to know more about Bio-Magnetic Seat Pad">Know
                     more</a>
@@ -806,17 +827,22 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-4 col-md-6 footer-contact">
-            <h3>AKASHAR FAMILY <span>HEALTH CARE</span></h3>
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <div class="text-center">
+              <img src="./assets/img/akasher-health-care.png" width="150px" class="text-center" alt="">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
             <p>
-              135 1 FLOOR SKY VIEW BULDING. NEAR SWAMINARAYAN BUS PARKING SYAMDHAM MANDIR VARACHA SURAT-395006
+              <strong>Address:</strong> 135 1 FLOOR SKY VIEW BULDING. NEAR SWAMINARAYAN BUS PARKING SYAMDHAM MANDIR
+              VARACHA SURAT-395006
               <br>
               <strong>Phone:</strong> +91 98985 88820<br>
               <strong>Email:</strong> bhadreshexports2010@gmail.com<br>
             </p>
           </div>
-
-          <div class="col-lg-4 col-md-6 footer-links">
+          <div class="col-lg-3 col-md-6 footer-links">
             <div class="uselink">
               <h4>Useful Links</h4>
               <ul>
@@ -826,16 +852,16 @@
               </ul>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 footer-links">
+          <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Social Networks</h4>
             <p>(Revolutionary Alternative Healing with the power of nature & science) A natural way of living life...
             </p>
-            <!-- <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+            <div class="social-links mt-3">
+              <a href="https://www.facebook.com/aksharhealth/" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/aksharfamilyhealthcare_/?fbclid=IwAR2DaOwKQL0eU5mmGvpIGp2TY3ZTUtR4o6RxL2IowV1oXKfuD4LHZt9MukI"
+                class="instagram"><i class="bx bxl-instagram"></i></a>
               <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-            </div> -->
+            </div>
           </div>
 
         </div>
